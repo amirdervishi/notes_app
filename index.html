@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Notes</h1>
+    <div class="container">
+      <form>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for notes..."
+        />
+        <h3>Create new note:</h3>
+        <input type="text" id="title" placeholder="Title" />
+        <textarea id="body" placeholder="Note"></textarea>
+        <button id="save-btn" type="submit">Save Note</button>
+      </form>
+      <div id="notes-container"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
